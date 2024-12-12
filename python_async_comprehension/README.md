@@ -182,7 +182,7 @@ Les annotations n’affectent pas l’exécution du code, mais en clarifient l�
 - La première ligne de chaque fichier doit être `#!/usr/bin/env python3`.
 - La longueur des fichiers sera vérifiée avec `wc`.
 - Toutes les fonctions et coroutines doivent être annotées avec des types.
-- Chaque module et fonction doit être documenté.
+- Chaque module et fonction doit être documenté..
 
 ---
 

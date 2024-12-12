@@ -14,3 +14,5 @@ python_async_comprehension/2-main.py
 python_async_comprehension/__pycache__/0-async_generator.cpython-310.pyc
 python_async_comprehension/__pycache__/0-async_generator.cpython-310.pyc
 python_async_comprehension/__pycache__/1-async_comprehension.cpython-310.pyc
+ES6_basic/node_modules/.package-lock.json
+.gitignore
