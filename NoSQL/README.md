@@ -2,7 +2,7 @@
 
 Ce document décrit les commandes et scripts nécessaires pour accomplir diverses tâches avec MongoDB, à partir de l'insertion de documents à la manipulation de collections et à l'analyse des logs.
 
-## **Tâche 1 : Lister toutes les bases de données**
+## **Tâche 0 : Lister toutes les bases de données**
 
 ### Commande MongoDB :
 ```javascript
@@ -15,7 +15,7 @@ show dbs
 
 ---
 
-## **Tâche 2 : Créer ou utiliser une base de données**
+## **Tâche 1 : Créer ou utiliser une base de données**
 
 ### Commande MongoDB :
 ```javascript
@@ -28,7 +28,7 @@ use my_db
 
 ---
 
-## **Tâche 3 : Insérer un document dans une collection**
+## **Tâche 2 : Insérer un document dans une collection**
 
 ### Commande MongoDB :
 ```javascript
@@ -41,7 +41,7 @@ db.school.insertOne({ name: "Holberton school" });
 
 ---
 
-## **Tâche 4 : Lister tous les documents d'une collection**
+## **Tâche 3 : Lister tous les documents d'une collection**
 
 ### Commande MongoDB :
 ```javascript
@@ -55,7 +55,7 @@ db.school.find().pretty();
 
 ---
 
-## **Tâche 5 : Lister les documents avec un filtre**
+## **Tâche 4 : Lister les documents avec un filtre**
 
 ### Commande MongoDB :
 ```javascript
@@ -68,7 +68,7 @@ db.school.find({ name: "Holberton school" }).pretty();
 
 ---
 
-## **Tâche 6 : Compter les documents dans une collection**
+## **Tâche 5 : Compter les documents dans une collection**
 
 ### Commande MongoDB :
 ```javascript
@@ -81,7 +81,7 @@ db.school.countDocuments();
 
 ---
 
-## **Tâche 7 : Mettre à jour des documents**
+## **Tâche 6 : Mettre à jour des documents**
 
 ### Commande MongoDB :
 ```javascript
@@ -98,7 +98,7 @@ db.school.updateMany(
 
 ---
 
-## **Tâche 8 : Supprimer des documents**
+## **Tâche 7 : Supprimer des documents**
 
 ### Commande MongoDB :
 ```javascript
