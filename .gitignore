@@ -16,3 +16,8 @@ python_async_comprehension/__pycache__/0-async_generator.cpython-310.pyc
 python_async_comprehension/__pycache__/1-async_comprehension.cpython-310.pyc
 ES6_basic/node_modules/.package-lock.json
 .gitignore
+pagination/*-main.py
+pagination/__pycache__/*
+pagination/Popular_Baby_Names.csv
+.gitignore
+.gitignore
