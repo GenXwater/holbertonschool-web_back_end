@@ -37,7 +37,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## Provided files
 <details>
   <summary>database.csv</summary>
-    ```
+    <pre>
+    <code class="language-javascript">
     firstname,lastname,age,field
     Johann,Kerbrou,30,CS
     Guillaume,Salou,30,SWE
@@ -49,12 +50,14 @@ At the end of this project, you are expected to be able to explain to anyone, wi
     Paul,Schneider,60,SWE
     Tommy,Schoul,32,SWE
     Katie,Shirou,21,CS
-    ```
+    </code>
+    </pre>
 </details>
 
 <details>
   <summary>package.json</summary>
-    ```
+    <pre>
+    <code class="language-javascript">
     {
       "name": "node_js_basics",
       "version": "1.0.0",
@@ -87,12 +90,14 @@ At the end of this project, you are expected to be able to explain to anyone, wi
           "sinon": "^7.5.0"
       }
     }
-    ```
+    </code>
+    </pre>
 </details>
 
 <details>
   <summary>babel.config.js</summary>
-    ```
+  <pre>
+  <code class="language-javascript">
     module.exports = {
       presets: [
         [
@@ -105,7 +110,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
         ],
       ],
     };
-    ```
+  </code>
+  </pre>
 </details>
 
 <details>
