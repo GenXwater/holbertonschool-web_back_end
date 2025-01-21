@@ -5,7 +5,7 @@ function displayMessage(message) {
 
 function exitProgramme() {
   console.log('This important software is now closing');
-  process.exit();
+  process.exit(0);
 }
 
 function inputName() {
