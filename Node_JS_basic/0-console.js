@@ -1,6 +1,10 @@
-// use of a displayMessage arrow function for console output
+/** use of a displayMessage arrow function for console output
+ * 
+ * @param (string) message - the message to be displayed.
+ * merci Hordan
+ */
 const displayMessage = message => {
-  process.stdout.write(message + "\n");  
+  console.log(message);  
 };
 
 module.exports = displayMessage;
