@@ -7,4 +7,5 @@ const displayMessage = message => {
   console.log(message);  
 };
 
+// il faut un commentaire ici ?
 module.exports = displayMessage;
