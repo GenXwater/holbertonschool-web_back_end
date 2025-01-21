@@ -71,4 +71,5 @@ const countStudents = (filePath) => {
   }
 };
 
-countStudents('database.csv');
+// countStudents('database.csv');
+module.exports = countStudents;
