@@ -7,7 +7,7 @@ const countStudents = (filePath) => {
     const data = fs.readFileSync(filePath, 'utf8');
 
     // Diviser le contenu en ligne :
-    const lines = data.trim().split('\n'); // trim nettoyes les espace surperflus et split diviser avec ce qu'on choisi
+    const lines = data.split('\n').filter((line) => line); // trim nettoyes les espace surperflus et split diviser avec ce qu'on choisi
 
     // vérification en-tête et données :
     if (lines.length <= 1) {
@@ -50,7 +50,7 @@ const countStudents = (filePath) => {
       acc[student.field].push(student.firstname); // push chaque prénom, de l'acc correspondant
       // en gros : acc = { CS: ['Johann', 'etc...'], SWE: ['Guillaume', 'etc...'] };
       return acc;
-    }, {}); // {} pour définir l'objet vide à la base
+    }, {}); // {} pour définir l'objet acc vide à la base
 
     for (const field in fields) {
       /**
@@ -71,5 +71,5 @@ const countStudents = (filePath) => {
   }
 };
 
-// countStudents('database.csv');
+countStudents('database.csv');
 module.exports = countStudents;
