@@ -61,7 +61,7 @@ const countStudents = (filePath) => {
        */
 
       // Vérif si "field" est une clé de "fields", obligatoire pour eslint
-      if (Object.prototype.hasOwnProperty.call(fields, field)) {
+      if (field) {
         console.log(`Number of students in ${field}: ${fields[field].length}. List: ${fields[field].join(', ')}`);
       }
     }
