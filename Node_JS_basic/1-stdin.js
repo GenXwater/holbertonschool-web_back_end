@@ -10,8 +10,15 @@ function exitProgramme() {
 
 function inputName() {
   process.stdin.setEncoding('utf8'); // l'entrée est traitée en tant que chaîne de caractères
+
+  let input = '';
+
   process.stdin.on('data', (chunk) => {
-    const name = chunk.trim(); // trim supprime les espaces superflus
+    input += chunk;
+  });
+
+  process.stdin.on('end', () => {
+    const name = input.trim(); // enlève les espaces superflus.
     console.log(`Your name is: ${name}`);
     exitProgramme();
   });
