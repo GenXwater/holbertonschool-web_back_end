@@ -7,7 +7,7 @@ const countStudents = (filePath) => {
     const data = fs.readFileSync(filePath, 'utf8');
 
     // Diviser le contenu en ligne :
-    const lines = data.split('\n').filter((line) => line); // trim nettoyes les espace surperflus et split diviser avec ce qu'on choisi
+    const lines = data.trim().split('\n'); // trim nettoyes les espace surperflus et split diviser avec ce qu'on choisi
 
     // vérification en-tête et données :
     if (lines.length <= 1) {
