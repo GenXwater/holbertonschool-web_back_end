@@ -1,7 +1,7 @@
 // Create a simple HTTP server using Node's http module.
 const http = require('http');
 
-const app = http.createServer((_, res) => {
+const app = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello Holberton School!');
