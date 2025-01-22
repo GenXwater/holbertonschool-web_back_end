@@ -67,6 +67,8 @@ const countStudents = async (filePath) => { // ajout de "async"
         console.log(`Number of students in ${field}: ${fields[field].length}. List: ${fields[field].join(', ')}`);
       }
     }
+    return output.trim(); // Retourne une chaine formatée
+
   } catch (error) {
     // En cas d'erreur (fichier non disponible, etc.)
     throw new Error('Cannot load the database');
