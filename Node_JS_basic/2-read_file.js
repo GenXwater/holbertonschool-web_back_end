@@ -67,7 +67,7 @@ const countStudents = (filePath) => {
     }
   } catch (error) {
     // En cas d'erreur (fichier non disponible, etc.)
-    console.log('Cannot load the database');
+    throw new Error('Cannot load the database');
   }
 };
 
