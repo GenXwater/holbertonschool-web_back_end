@@ -11,8 +11,7 @@ const countStudents = (filePath) => {
 
     // vérification en-tête et données :
     if (lines.length <= 1) {
-      console.log('Cannot load the database');
-      return;
+      throw new Error('Cannot load the database');
     }
 
     /**
